@@ -1,0 +1,264 @@
+/* Background image for the entire page */
+body {
+    
+    background-image: url('images/background9.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.7;
+    color: #333;
+}
+
+
+
+
+
+/* Header */
+header {
+    padding: 15px 0;
+    background-color: white; /* Add this */
+    margin: 0 20px; /* Add this - creates space from edges */
+}
+
+/* Logo layout */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Logo image size */
+.logo-img {
+    width: 80px;
+    height: Auto;
+}
+
+/* Logo text */
+.logo h1 {
+    color: black;
+    font-size: 24px;
+    margin: 0;
+}
+
+
+/* Contact form styling */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background: #16a085;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background: #1e3d6f;
+}
+
+
+
+/* Gallery image styling */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Space between images */
+    margin: 20px 0;
+}
+
+.gallery-item img {
+    width: 100%; /* Full width of container */
+    height: 250px; /* Fixed height for all images */
+    object-fit: cover; /* Crop images to fit same size */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.gallery-caption {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Video styling */
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* Navigation bar - horizontal */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background: blue;
+    color: white;
+}
+
+
+
+
+/* Footer layout - side by side */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 15px;
+}
+
+
+
+
+
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets clean, modern font stack */
+            max-width: 800px; /* Limits page width for better readability */
+            margin: 0 auto; /* Centers the page horizontally */
+            padding: 30px; /* Adds space around content */
+            background-color: #f8f9fa; /* Light subtle background */
+            line-height: 1.7; /* Increases line spacing for better readability */
+            color: #333; /* Dark gray text color for good contrast */
+        }
+        
+        .page-title {
+            text-align: center; /* Centers the main title */
+            color: #2c3e50; /* Dark blue-gray color */
+            font-size: 2.2em; /* Larger font size */
+            margin-bottom: 10px; /* Space below title */
+            font-weight: 300; /* Lighter font weight */
+            border-bottom: 3px solid #3498db; /* Blue accent line under title */
+            padding-bottom: 15px; /* Space between text and border */
+        }
+        
+        .author {
+            text-align: center; /* Centers author name */
+            color: #7f8c8d; /* Medium gray color */
+            font-style: italic; /* Italic text */
+            margin-bottom: 40px; /* Space below author */
+            font-size: 1.1em; /* Slightly larger text */
+        }
+        
+        h1 {
+            color: #2c3e50; /* Dark blue-gray color */
+            font-size: 2em; /* Large font size */
+            margin-top: 30px; /* Space above heading */
+            margin-bottom: 15px; /* Space below heading */
+            border-left: 4px solid #3498db; /* Blue accent line on left */
+            padding-left: 15px; /* Space between text and border */
+        }
+        
+        h2 {
+            color: #34495e; /* Slightly lighter blue-gray */
+            font-size: 1.6em; /* Medium-large font size */
+            margin-top: 25px; /* Space above heading */
+            margin-bottom: 12px; /* Space below heading */
+            padding-bottom: 8px; /* Space below text */
+            border-bottom: 2px solid #ecf0f1; /* Light gray line under heading */
+        }
+        
+        h3 {
+            color: #16a085; /* Teal green color */
+            font-size: 1.3em; /* Medium font size */
+            margin-top: 25px; /* Space above heading */
+            margin-bottom: 10px; /* Space below heading */
+        }
+        
+        h4 {
+            color: #8e44ad; /* Purple color */
+            font-size: 1.1em; /* Slightly larger than normal text */
+            margin-top: 20px; /* Space above heading */
+            margin-bottom: 8px; /* Space below heading */
+            font-style: italic; /* Italic text */
+        }
+        
+        p {
+            margin-bottom: 16px; /* Space between paragraphs */
+            text-align: justify; /* Justified text alignment */
+            font-size: 1.05em; /* Slightly larger text for readability */
+        }
+        
+        .intro-paragraph {
+            font-size: 1.1em; /* Slightly larger intro text */
+            background-color: #e8f4f8; /* Light blue background */
+            padding: 20px; /* Space inside background */
+            border-radius: 8px; /* Rounded corners */
+            border-left: 4px solid #3498db; /* Blue accent border */
+            margin-bottom: 25px; /* Space below intro */
+        }
+        
+        hr {
+            border: none; /* Removes default border */
+            height: 1px; /* Sets height of divider */
+            background: linear-gradient(to right, transparent, #bdc3c7, transparent); /* Gradient effect */
+            margin: 30px 0; /* Space above and below divider */
+        }
+        
+        .content-section {
+            background: white; /* White background for content */
+            padding: 25px; /* Space inside content area */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow effect */
+            margin-bottom: 20px; /* Space below section */
+        }
+
+
+
+
+/* Remove the default border from iframe */
+iframe {
+    border: 0;
+}
